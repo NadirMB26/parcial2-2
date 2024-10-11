@@ -1,0 +1,224 @@
+
+*{  
+    box-sizing: border-box;
+}
+body{
+    font-family:"Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.alineado {
+    display: flex;
+    text-align: left;
+  }
+img{
+    height: 80px;
+     width: 80px;
+     border: 8px;
+}
+h1 { font-size: 3.5em;
+    font-family: "Sansita Swashed", system-ui;
+    text-decoration: none;
+    color: black;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+padding: 25xp 30xp;
+}
+h2 { font-size: 2.5em; }
+.espacio {  font-size: 2em;
+    font-family: "Sansita Swashed", system-ui;
+    text-decoration: none;
+    color: black;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+    padding: 25xp 30xp;
+}
+p { font-size: 1.5em;
+color: rgb(80, 80, 80);
+}
+  
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: rgb(255, 191, 0);
+}
+button:hover{
+background-color: rgb(255, 149, 0);
+}
+
+nav ul{
+    text-align: right;
+    width: 100%;
+}
+nav a{
+    font-family: "Sansita Swashed", system-ui;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(240, 240,240);
+}
+.espacio{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+header .logo{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+    padding: 25xp 30xp;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25xp;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#quienes-somos .container{
+text-align:left;
+padding: 70px 15px;
+
+}
+.sub{
+    color: blue;
+}
+#nuestros-servicios{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#nuestros-servicios .container{
+    padding: 70px 0px;
+}
+#nuestros-servicios h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+#nuestros-servicios .carta{
+    background-size:cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#nuestros-servicios p{
+    display: none;
+}
+#cotizacion .container{
+    font-weight: bold;
+    margin:  16px 0px;
+    
+}
+
+#cotizacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50lvh;
+    font-family: 2.5em;
+
+}
+
+footer p{
+    padding: 15px;
+    color: gray;
+    font-weight: bold;
+    font-family: 2em;
+}
+#anuncios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#anuncios p {
+    width: 40%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.text button {
+    margin-top: 20px;
+    display: block;
+    width: 250px;
+    font-size: 1.25em;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: orange;
+}
+button:hover{
+    background-color: rgb(157, 97, 18);
+}
+
+.boton{
+    width: 170px;
+    height: 70px;
+    font-size: medium;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex-basis: calc(33% - 10px);
+    margin: 5px;
+}
+
+.anuncio img {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.anuncio img:hover {
+    transform: scale(1.05);
+}
